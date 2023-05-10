@@ -1,0 +1,42 @@
+ORDINARE UNA PIZZA - Team 6
+1. Decido di mangiare una pizza
+2. Prendere telefono
+3. Recupare un elenco di massimo 4 numeri di pizzerie
+4. Prendere numero pizzeria casuale
+5. Chiamo pizzeria
+6. Aspetto che mi rispondano
+    6a. IF (Non Rispondono)
+            IF (il numero è irraggiungibile)
+                -Chiamo una pizzeria diversa(torna punto 4)
+            ELSE (il numero è occupato)
+                -Richiamo la  stessa pizzeria
+                IF (Non rispondono)
+                    -Chiamo una pizzeria diversa(torna punto 4)
+                ELSE (Rispondono)
+                    -Vai a 6b.
+    -6b. ELSE (Ci rispondono)
+            -Chiedo se fanno consegna a domicilio
+            IF (No)
+                -Chiamo una pizzeria diversa(torna punto 4)
+            ELSE (Si)
+                -Chiedo se possono fare una pizza prosciutto e funghi al momento
+                IF (Hanno i funghi && il prosciutto && la fanno adesso)
+                    -Ordino la pizza all'orario disponibile
+                    -Aspetto la pizza
+                        IF (se arriva)
+                            -Prendo la pizza
+                            -Pago il fattorino
+                            -Taglio la pizza
+                            -Mangio una fetta
+                                IF (Non sono sazio)
+                                    -Mangia un'altra fetta (torna punto 11)
+                                ELSE (Sono sazio)
+                                    IF (La pizza è finita)
+                                        -Termina programma
+                                    ELSE (Rimane una o più fette)
+                                        -La/le metto in frigo
+                                        -Termina programma con rutto -FRAGOROSO-
+                        ELSE (se non arriva prima di un'ora)
+                            -Digiuno e preghiera (Termina programma)
+                ELSE ()
+                    -Chiamo una pizzeria diversa(torna punto 4)
